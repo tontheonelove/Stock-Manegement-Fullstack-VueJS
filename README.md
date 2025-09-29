@@ -73,19 +73,10 @@ Description=NetStock Backend Service (FastAPI)
 After=network.target
 
 [Service]
-# รันด้วย root (เพราะ path อยู่ใน /root)
 User=root
 Group=root
-
-# โฟลเดอร์ backend
 WorkingDirectory=/root/stock-management/backend
-
-# เรียกใช้ uvicorn จาก virtualenv (ถ้ามี venv)
 ExecStart=/root/stock-management/backend/venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000
-
-# ถ้าไม่มี venv ใช้ python3 ตรง ๆ ได้ เช่น:
-# ExecStart=/usr/bin/python3 -m uvicorn main:app --host 0.0.0.0 --port 8000
-
 Restart=always
 RestartSec=5
 Environment="PATH=/root/stock-management/backend/venv/bin"
