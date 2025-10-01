@@ -9,7 +9,7 @@
 1. ubuntu server 20++
 2. mysql server
 3. node js 20+
-4. python
+4. python3
 5. nginx
 
 
