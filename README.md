@@ -42,7 +42,7 @@ node -v
 npm -v
 
 # สร้างโปรเจกต์ Vue + TS  (Create frontend folder)
-npm create vue@latest frontend
+npm create vue@latest frontend    or   npm create vite@latest frontend --template vue
 # ✔ Add TypeScript? Yes
 # ✔ Add Router? Yes
 # ✔ Add Pinia? Yes
