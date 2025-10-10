@@ -167,6 +167,11 @@ sudo systemctl reload nginx
 `````
 
 
+## รวม Lib backend ทั้งหมด สำหรับ ไป install เครื่องอื่น 
+`````
+# pip freeze > requirements.txt
+`````
+
 
 
 
