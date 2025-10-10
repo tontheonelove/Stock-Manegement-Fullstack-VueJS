@@ -1,8 +1,4 @@
-# 🗂️Stock-Manegement-Fullstack-VueJS🗂️
-
-## Login Design 
-
-<img width="604" height="653" alt="image" src="https://github.com/user-attachments/assets/61f95c5a-38c6-430b-8e29-69f8f59d9c59" />
+# 🗂️Fullstack-VueJS-startup🗂️
 
 
 ## 🗄️Server Requirement 🗄️
