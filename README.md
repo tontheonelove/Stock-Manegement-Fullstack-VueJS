@@ -167,6 +167,12 @@ sudo systemctl reload nginx
 `````
 
 
+## production (nginx)
+
+`````
+# cp -r dist/* /var/www/myapp/    (create your app folder inside path)
+`````
+
 ## รวม Lib backend ทั้งหมด สำหรับ ไป install เครื่องอื่น 
 `````
 # pip freeze > requirements.txt
